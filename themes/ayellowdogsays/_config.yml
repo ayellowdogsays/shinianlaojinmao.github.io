@@ -33,7 +33,7 @@ menubar:
         title: 阿黄说
         url: /
       - id: wiki
-        title: 阿黄标
+        title: 阿黄标签
         url: /tags/
       - id: explore
         title: 探索
