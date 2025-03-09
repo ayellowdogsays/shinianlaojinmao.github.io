@@ -7,11 +7,6 @@ tags: []
 title: 给你的hexo加上自建评论区👾
 updated: '2025-02-15T19:07:02.559+08:00'
 ---
-# 自建giscus服务
-
-今天，我的giscus崩了，因为太慢了，一气之下怒了一下🤣，便自己自建
-
-若你也遇到但不想动手，用[我的URL即可](waline.laogoupro.us.kg)!
 
 ## 创建一个GitHub App
 
