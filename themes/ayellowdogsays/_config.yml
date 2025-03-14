@@ -27,20 +27,17 @@ logo:
 
 # 侧边栏主功能导航菜单
 menubar:
-  columns: 4 # 一行多少个
+  columns: 3 # 一行多少个
   items: # 可按照自己需求增加，符合以下格式即可
       - id: post
         title: 阿黄说
         url: /
-      - id: wiki
-        title: 阿黄标签
-        url: /tags/
       - id: explore
-        title: 探索
+        title: 狗友
         url: /about/
       - id: social
-        title: 阿黄友
-        url: /link/
+        title: 说说说说
+        url: /says/
 
 
 ######## Main ########
@@ -539,7 +536,7 @@ style:
     next: https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/arrow/064b95430caf4.svg
   error_page: https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/404/1c830bfcd517d.svg
   site:
-    background-image: 'url(https://img-baofun.zhhainiao.com/pcwallpaper_ugc/static/704e0203339e0e61bfde146f86585a88.jpg?x-oss-process=image%2fresize%2cm_lfit%2cw_960%2ch_540)' # 未完全适配，慎用
+    background-image: 'url(https://file.moyublog.com/free_wallpapers_files/5j5v43f0sj1.jpg)' # 未完全适配，慎用
     blur-px: 0px
     blur-bg: var(--alpha75)
 
@@ -563,9 +560,7 @@ api_host:
 # 自定义引入css,js
 inject:
   head:
-    - <link rel="stylesheet" href="/customize/css/pace.css"> # 网站进度条加载
-  script:
-    - <script type="text/javascript" src="/customize/js/pace.min.js"></script> # 网站进度条加载
+    - <link rel="stylesheet" href="/customize/css/pace.css"> # 网站进度条加载cript type="text/javascript" src="/customize/js/pace.min.js"></script> # 网站进度条加载
     - <script type="text/javascript" src="https://www.flyalready.cn/js/effectsonclick.js"></script> # 网站进度条加载
     - <script type="text/javascript" src="/customize/js/headend.js"></script> # 网站进度条加载
     - <script type="text/javascript" src="/customize/js/load.js"></script> # 网站进度条加载
