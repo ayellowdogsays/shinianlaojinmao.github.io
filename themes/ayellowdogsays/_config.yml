@@ -564,4 +564,4 @@ inject:
   script:
     - <script type="text/javascript" src="/customize/js/pace.min.js"></script> # 网站进度条加载
     - <script type="text/javascript" src="/js/mouse.js"></script> # 网站进度条加载
-
+    - <script type="text/javascript" src="/js/ZYCode.js"></script>
