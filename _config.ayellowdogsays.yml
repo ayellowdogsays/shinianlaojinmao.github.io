@@ -77,9 +77,9 @@ style:
     button: "hsl(192 98% 55%)" # 按钮颜色
     hover: "hsl(14 100% 57%)" # 按钮高亮颜色
   leftbar:
-    blur-px: 100px
+    blur-px: 0px
     blur-bg: var(--alpha60)
-    background-image: #url()
+    background-image: url(https://mobile-img-baofun.zhhainiao.com/pcwallpaper_ugc_mobile/live/6f13fea4efc75aee7d80db85bd796d96_preview_mid.jpg)
   text-align: left # justify/left/center/right
   prefix:
     h2: https://api.iconify.design/ci:heading-h2.svg
