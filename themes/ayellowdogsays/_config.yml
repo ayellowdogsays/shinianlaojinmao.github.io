@@ -560,8 +560,8 @@ api_host:
 # 自定义引入css,js
 inject:
   head:
-    - <link rel="stylesheet" href="/customize/css/pace.css"> # 网站进度条加载cript type="text/javascript" src="/customize/js/pace.min.js"></script> # 网站进度条加载
-    - <script type="text/javascript" src="https://www.flyalready.cn/js/effectsonclick.js"></script> # 网站进度条加载
-    - <script type="text/javascript" src="/customize/js/headend.js"></script> # 网站进度条加载
-    - <script type="text/javascript" src="/customize/js/load.js"></script> # 网站进度条加载
-    - <script src="https://www.vae.zhangweicheng.xyz/web/denglong.js?text=%E5%A5%BD%E5%A5%BD%E5%AD%A6%E4%B9%A0"></script>
+    - <link rel="stylesheet" href="/customize/css/pace.css"> # 网站进度条加载
+  script:
+    - <script type="text/javascript" src="/customize/js/pace.min.js"></script> # 网站进度条加载
+    - <script type="text/javascript" src="/js/mouse.js"></script> # 网站进度条加载
+
